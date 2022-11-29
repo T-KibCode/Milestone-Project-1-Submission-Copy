@@ -1,0 +1,9 @@
+@media screen {min-width: 1000px;}
+  
+body{
+  background-color: rgb(255, 255, 255);
+  font-family: 'Avro', serif;
+}
+h3{
+    color: #f9f9f9;
+}
