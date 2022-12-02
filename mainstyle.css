@@ -91,5 +91,8 @@
   .footer{
     position: absolute;
     margin-top: auto;
-}
+    width:fit-content;
+    height: 60px;
+  }
+}  
 
