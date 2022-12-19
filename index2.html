@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="mainstyle.css">
-    <link rel="stylesheet" href="transistion.css">
+    <link rel="stylesheet" href="style2.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <title>T-Kib-Code Home</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white sticky-top .dropdown-menu">
-        <div class="container-fluid hvr-grow">
-          <a class="navbar-brand brand-heading" href="entryindex.html">T-Kib-Code</a>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark text-white sticky-top .dropdown-menu">
+        <div class="container-fluid">
+          <a class="navbar-brand brand-heading" href="index.html">T-Kib-Code</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -54,8 +54,20 @@
         </div>
       </nav>
 </body>
-<br>
 <body>
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active c-item">
+        <img src="images/t-kib-code-high-resolution-logo-black-on-white-background.jpeg" class="d-block w-100 c-img" alt="T-Kib-Code Logo Image">
+      </div>
+      <div class="carousel-item c-item">
+        <img src="./images/t-kib-code-high-resolution-logo-black-on-white-background.jpeg" class="d-block w-100 c-img" alt="T-Kib-Code Logo Image - Favicon Image">
+      </div>
+    </div>
+  </div>
+</body>
+<br>
+<body class="grad">
   <a id="home"></a>
   <div class="container text-center" class="body-2"> 
     <br>
@@ -69,11 +81,7 @@
         <br>
       </div>
       <br>
-      <div class="container text-center">
-        <img src="images/TK-personal-image.jpeg" alt="Image of Twaha on chair in black and white"
-         width="700"
-         height="auto">
-      </div>
+      
     </div>
   </div>
   <div id="aboutme"></div>
@@ -88,7 +96,9 @@
   <div class="container text-center">
     <h1 class="display-6">About Me</h1>
     <p class="col-lg-6 container">I am driven, passionate and creative individual that has embraced the challenges of working in multiple B2C and B2B roles within the cycling industry. I have dedicated time to honing my knowledge within my current respective field which has landed me the extremely favourable posistion that I am in now working with one of the 3 largest cycling brands in the world. This was acheieved through honing a variety of skills in both the customer facing roles as a part-time sales staff member, to working up the chain through management, and then side stepping to more technically demanding roles over the last decade.</p>
+    <br>
     <p class="col-lg-6 container">My experience both overseeing and working within a team have allowed me to look objectively at blindspots within past roles and have allowed me to propose solutions at increasing effiency within the team and as a byproduct my role within the business adding value.</p>
+    <br>
     <p class="col-lg-6 container">I am currently styding with Code Institute in order to qualify as a Fullstack Web Developer</p>
   </div>
 </body>
@@ -123,11 +133,11 @@
   <br>
   <br>
   <form>
-    <div class="rows form-group col-sm-12 col-md-6 col-lg-12">Full Name</label>
+    <div class="rows form-group col-sm-12 col-md-6 container-fluid">Full Name</label>
       <input type="name" class="form-control" id="exampleFormControlTextarea1" rows="1"></input>
     </div>
     <br>
-    <div class="rows form-group col-sm-12 col-md-6 col-lg-12">
+    <div class="rows form-group col-sm-12 col-md-6 container-fluid">
       <label for="exampleInputEmail1">Email address</label>
       <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
       <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
@@ -149,8 +159,10 @@
 <br>
 <br>
 <br>
+</body>
+</body>
 <body>
-  <footer>
+<footer>
     <div class="navbar navbar-expand-lg footer navbar-dark bg-dark text-white container container-fluid">
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white sticky-top .dropdown-menu">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ratione, cupiditate ipsam doloremque ab voluptatibus in ullam aut voluptate eveniet quod, aliquam accusamus aperiam veniam fugiat molestiae unde blanditiis delectus.</p>

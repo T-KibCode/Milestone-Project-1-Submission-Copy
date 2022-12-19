@@ -9,3 +9,9 @@ I have created the intial landing page with my company logo (free use creation).
 At this moment I am considering using JS to creation a navigation animation depending on media Query device's. With regards to the mobile version, there will be a small version of the background image with the Enter button Front and centre the logo smaller above it. 
 
 After linking my entry page to the main navigation page, I will be using bootstrap to build some of the assets within the page such as the nav bar amongst other elements for ease of use at the moment. Once I have a stronger Grasp over bootstrap, I may insert customer CSS, but it remains to be seen. 
+
+<div class="container-fluid text-center">
+        <img src="images/TK-personal-image.jpeg" alt="Image of Twaha on chair in black and white"
+         width="700"
+         height="auto">
+      </div>
