@@ -50,7 +50,7 @@ body{
   left: 50%;
 }
 
-@media screen {min-width: 700px;}
+@media screen {max-width: 768px;}
 
   body{
     background-color: black;
@@ -58,7 +58,7 @@ body{
   }
   .img{
     z-index: 3;
-    height: 150px;
+    height: 100%;
     width: auto;
   }
   .center {
