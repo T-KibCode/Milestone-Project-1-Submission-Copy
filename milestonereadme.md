@@ -10,8 +10,3 @@ At this moment I am considering using JS to creation a navigation animation depe
 
 After linking my entry page to the main navigation page, I will be using bootstrap to build some of the assets within the page such as the nav bar amongst other elements for ease of use at the moment. Once I have a stronger Grasp over bootstrap, I may insert customer CSS, but it remains to be seen. 
 
-<div class="container-fluid text-center">
-        <img src="images/TK-personal-image.jpeg" alt="Image of Twaha on chair in black and white"
-         width="700"
-         height="auto">
-      </div>
