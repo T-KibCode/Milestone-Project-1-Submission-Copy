@@ -10,3 +10,17 @@ At this moment I am considering using JS to creation a navigation animation depe
 
 After linking my entry page to the main navigation page, I will be using bootstrap to build some of the assets within the page such as the nav bar amongst other elements for ease of use at the moment. Once I have a stronger Grasp over bootstrap, I may insert customer CSS, but it remains to be seen. 
 
+    <body class="container row text-center">
+      <i class="fa-brands fa-linkedin"><a href="https://www.linkedin.com/in/twaha-kibirige-t-kib-code/" target="blank">LinkedIn</a></i>
+    </body>
+    <br>
+    <br>
+    <br>
+      <i class="fa-brands fa-github"><a href="https://github.com/T-KibCode" target="_blank">GitHub</a></i>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+    </body>
