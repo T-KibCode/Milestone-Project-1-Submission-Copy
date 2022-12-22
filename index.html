@@ -101,31 +101,31 @@
   <br>
   <br>
   <form action="contact.html" method="POST">
-    <div class="rows form-group col-sm-12 col-md-6 container-fluid">Full Name</label>
-      <input type="name" class="form-control required id="exampleFormControlTextarea1" rows="1"></input>
+    <div class="rows form-group col-sm-12 col-md-6 container-fluid">
+      <label>Full Name</label>
+      <input name="name" class="form-control required" id="exampleFormControlTextarea1">
     </div>
     <br>
     <div class="rows form-group col-sm-12 col-md-6 container-fluid">
       <label for="exampleInputEmail1">Email address</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+      <input type="email" class="form-control required" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
       <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
     </div>
     <br>
     <div class="form-group col-md-12 container-fluid" >
-      <label for="exampleFormControlTextarea1" type="required">Subject</label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+      <label for="exampleFormControlTextarea1">Subject</label>
+      <textarea class="form-control required" rows="1"></textarea>
     </div>
     <br>
     <div class="form-group col-md-12 container">
-      <label for="exampleFormControlTextarea1" type="required">Question</label>
+      <label for="exampleFormControlTextarea1">Question</label>
       <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
     </div>
     <br>
-    <button class="btn btn-dark"><a href="contact.html" target="_blank"> Submit </a></button>
+    <a href="contact.html" target="_blank"><button type="button" class="btn btn-dark custombtn">Submit</button></a>
   </form>
 <br>
 </body>
-<br>
 <footer>
   <div class="mt-5 pt-5 pb-5 footer bg-dark customfooter">
     <div class="container">
