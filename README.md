@@ -1,6 +1,12 @@
-# Milestone-Project-1-Submission-Copy
-Hosts code used in my code institute project one
-milestone-project-1-readme file.
+Run Python script python3 -m http.server in order to see a preview of the project.
+
+# Milestone-Project-1 
+
+Github Repo Link [Milestone Project 1](https://github.com/T-KibCode/Milestone-Project-1-Submission-Copy)
+
+Deployed Website [Portfolio Website](https://t-kibcode.github.io/Milestone-Project-1-Submission-Copy/)
+
+
 
 Hello and thank you for coming to take a look at my repo for my milestone 1 project. 
 
